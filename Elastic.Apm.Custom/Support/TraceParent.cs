@@ -4,6 +4,9 @@ using Elastic.Apm.Api;
 
 namespace Elastic.Apm.Custom.Support
 {
+    /// <summary>
+    /// Copied from the official APM Project - Due to it's "internal" status
+    /// </summary>
     internal static class TraceParent
     {
         private const byte FlagRecorded = 1; // 00000001
